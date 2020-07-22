@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.conteiner {
+    padding: 1em;
+    position: relative;
+    top: 10vh;
+}
+
+#calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50vw;
+}
+
+.calculadora-item {
+    box-sizing: border-box;
+    width: 15vw;
+    height: 5vh;
+}
+
+#conteiner-resultado {
+    text-align: center;
+}

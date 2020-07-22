@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Lux</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header></header>
+    <div class="conteiner">
+        <img src="img/lamp.png" alt="Lampada">
+        <h1>calculadora de luméns</h1>
+    </div>
+    <!--Seção da Calculadora-->
+    <section id="conteiner-calculadora" class="conteiner">
+        <form id="calculadora">
+            <label for="ambiente">ambiente</label>
+            <select name="ambientes" id="ambiente" class="calculadora-item">
+                <option class="ambiente-item" value="banheiro" selected>banheiro</option>
+                <option class="ambiente-item" value="cozinha">cozinha</option>
+                <option class="ambiente-item" value="quarto">quarto</option>
+                <option class="ambiente-item" value="sala">sala</option>
+                <option class="ambiente-item" value="garagem">garagem</option>
+            </select>
+            <label for="areaDoAmbiente">Área do ambiente</label>
+            <input id="areaDoAmbiente" class="calculadora-item" placeholder="Área do ambiente (m²)" type="number">
+        </form>
+        <div id="conteiner-resultado">
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <!--Seção de conteudos-->
+    <section id="conteiner-conteudo">
+
+    </section>
+    <footer></footer>
+</body>
+<script src="scripts/main.js"></script>
+</html>
